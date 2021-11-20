@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'M PLUS 2', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 100%; 
+  background: linear-gradient(to top,rgba(0,0,0,0.5 )50%, rgba(0,0,0,0.5)50%) ,url("./asset/final.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+
+.menu {
+  list-style: none;
+  float: right;
+  padding: 0 20px;
+  padding-right: 130px;
+  padding-top:16px;
+}
+
+.menu li {
+  display: inline-block;
+  line-height: 70px;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(145, 133, 133);
+  padding: 0px 20px;
+  font-size: 22px;
+ 
+}
+
+.menu li a:hover {
+  
+  color: white;
+  
+}
+.mid h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 175px;
+}
+ h4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(209, 197, 197);
+    font-size: 20px;
+    line-height: 30px;
+  
+}
+.heading{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.container{
+    padding-top: 40px;
+    padding-left: 660px;
+}
+.container button{
+  color: white;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 20px;
+  padding-bottom: 38px;
+  border: 3px solid rgb(64, 209, 154);
+  background-color: rgb(64, 209, 154);
+  margin-right: 100px;
+}
